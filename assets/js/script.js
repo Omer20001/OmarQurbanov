@@ -1,5 +1,4 @@
 
-
 var swiper = new Swiper(".mySwiper", {
 	effect: "cards",
 	grabCursor: true,
@@ -21,7 +20,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Hello I am Omar.', 'I am Front-end Developer'], 'text',['white','rebeccapurple','lightblue']);
+consoleText(['Hello I am Omar.', 'I am Front-end Developer'], 'text',['#E8F1F2','#006494']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -115,14 +114,3 @@ function topFunction() {
 }
 
 
-function drag(){
-  document.getElementById("about-p1").innerHTML="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, non aliquid, illum nesciunt veniam ab nemo fugit similique cumque dignissimos rerum esse eaque saepe ipsum amet asperiores quidem omnis alias?"
-}
-
-
-function drag2(){
-  document.getElementById("about-p1").innerHTML="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, non aliquid, illum nesciunt veniam ab nemo fugit similique cumque dignissimos rerum esse eaque saepe ipsum amet asperiores quidem omnis alias?2222"
-}
-function drag3(){
-  document.getElementById("about-p1").innerHTML="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, non aliquid, illum nesciunt veniam ab nemo fugit similique cumque dignissimos rerum esse eaque saepe ipsum amet asperiores quidem omnis alias?3333"
-}
