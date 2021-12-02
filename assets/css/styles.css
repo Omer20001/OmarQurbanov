@@ -2,7 +2,7 @@
 	Simple reset
 --------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
 *{
 	margin:0;
@@ -59,7 +59,7 @@ header:after{
 }
 
 header .h2{
-	font: normal 28px 'Rochester', cursive !important;
+	font-family: 'Fuzzy Bubbles', cursive;
 	text-align:center;
 	padding:5px;
 	background-color:#3a3a3b;
@@ -68,7 +68,7 @@ header .h2{
 	position:absolute;
 	top:0;
 	left:50%;
-	width:160px; 
+
 	margin-left:-80px;
 	color:#fff;
 }
