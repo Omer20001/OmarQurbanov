@@ -529,8 +529,8 @@ transition: 0.5s all;
 
 
 .img-project-1{
-	width: 400px;
-	height: 200px;
+	width: 400px!important;
+	height: 200px!important;
 
 	border: 1px solid #ddd;
 	border-radius: 4px;
